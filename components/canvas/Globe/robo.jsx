@@ -6,7 +6,7 @@ import {OrbitControls} from '@react-three/drei';
 
 export const Robot = ({ position, scale, rotation, initialHeadRotation = { x: 0.2, y: 0.2 }}) => {
 
-    const { scene } = useGLTF('/websiteRobo.glb');
+    const { scene } = useGLTF('/portfolio/websiteRobo.glb');
     const headRef = useRef();
     const mousePosition = useRef({ x: 0, y: 0 });
 
