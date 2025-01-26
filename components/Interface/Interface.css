@@ -18,7 +18,7 @@
   transition: left 0.3s ease;
 }
 .profile-img{
-  background-image: url('public/avatar.png');
+  background-image: url('/portfolio/avatar.png');
   background-size: 160%;
   background-position: center;
   position:absolute;
